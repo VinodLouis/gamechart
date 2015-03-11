@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AFL Lab</title>
+    <style>
+    /********* Navigation bar Style Starts *****************/
+        @media(min-width:850px){
+
+            #nav{
+                width: 60%;
+                margin: auto;
+            }
+        }
+        @media(max-width:849px){
+            #nav{
+                width: 100%;
+                margin: auto;
+            }
+            #stadium, #teams, #ladder, #battle {
+                padding: 0px;
+                margin: auto;
+            }
+        }
+        body {
+            font-family: tahoma,sans-serif ;
+        }
+        .container{
+            margin: auto;
+            overflow: auto;
+            text-align: center;
+
+        }
+        .header {
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background: #a3a3a3;
+            height: 5em;
+            line-height: 3em;
+            box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+
+        }
+        .nav-text {
+            margin-top:-33px;
+        }
+        #brand{
+            font-size: 40px;
+            position: absolute;
+            top: 0.4em;
+            margin-left: 0.5em;
+        }
+        #stadium, #teams, #ladder, #battle{
+            display: inline-block;
+            width:120px;
+            text-align: center;
+        }
+        .viewport {
+            margin-top: 6em;
+        }
+        .inactive a img, .inactive a div{
+            opacity: 0.5;
+        }
+        .dead-link{
+            text-decoration: none;
+        }
+    /********* Navigation bar Style Ends *****************/
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a href="javascript:void(0)" class="dead-link">
+            <div id="brand">AFL  LAB</div>
+        </a>
+        <div id="nav">
+            <div id="stadium" class="inactive">
+                <a href="stadiums/index2Latest.html">
+                    <img src="images/stadiums.png" width="60px">
+                    <div class="nav-text">STADIUMS</div>
+                </a>
+            </div>
+            <div id="teams" class="inactive">
+                <a href="teams/index2Latest.html">
+                    <img src="images/teams.png" width="60px">
+                    <div class="nav-text">TEAMS</div>
+                </a>
+            </div>
+            <div id="ladder" class="inactive">
+                <a href="ladder/index.html">
+                    <img src="images/ladder.png" width="60px">
+                    <div class="nav-text">LADDER</div>
+                </a>
+            </div>
+            <div id="battle" class="inactive">
+                <a href="battle/index.html">
+                    <img src="images/battle.png" width="60px">
+                    <div class="nav-text">BATTLE</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="viewport">
+
+    <h1> insert each project HERE when clicked. grey bar is always showing. thanks :)</h1>
+
+</div>
+
+
+
+
+
+</body>
+</html>
