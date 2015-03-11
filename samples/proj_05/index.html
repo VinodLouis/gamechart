@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html ng-app="flexibleGrid">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="css/ng-grid.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/vendor/jquery-1.9.1.js"></script>
+    <script src="js/vendor/d3v2.js"></script>
+    <script src="js/vendor/angular.js"></script>
+    <script src="js/vendor/ng-grid.debug.js"></script>
+
+    <script src="js/custom/app.js"></script>
+    <script src="js/custom/controller/maincontroller.js"></script>
+
+    <title>Flexible Grid</title>
+</head>
+
+<body ng-controller="gridcontroller">
+<div id="chart"></div>
+<div class="gridStyle" ng-grid="gridOptions"> </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(document).on("click",function(event){
+            var strClassName = $(event.target).attr('class');
+            if(strClassName){
+                if(strClassName.indexOf("ngHeaderButton") == -1 && strClassName.indexOf("ngColList") == -1 && strClassName.indexOf("ngColMenu") == -1){
+                    $(".ngColMenu").hide();
+                }
+            }else{
+                $(".ngColMenu").hide();
+            }
+        });
+    })
+</script>
+
+</body>
+</html>

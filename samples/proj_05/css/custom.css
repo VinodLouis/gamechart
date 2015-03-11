@@ -1,0 +1,89 @@
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    height: 300px;
+    margin: auto;
+}
+
+
+li,h3,span,div{
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+.ngCellText{
+    white-space: pre-line !important;
+    word-wrap: break-word;
+}
+
+.ngHeaderText{
+    word-wrap: break-word !important;
+    white-space: pre-line !important;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.caption-text{
+    font-size  : 12;
+    fill     : #000000;
+    stroke-width:0.25;
+    stroke:#000000;
+    cursor: pointer;
+}
+.display-none{
+    display:none;
+}
+.chart {
+    font-size: 10px;
+    display: block;
+    margin: auto;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.ngHeaderScroller{
+    width: 100% !important;
+    background-color: #376DC2;
+}
+
+.ngRow.even,.ngRow.odd{
+    background-color: #ffffff;
+}
+
+.ngRow.selected{
+    background-color: #CADAF8;
+}
+
+.ngHeaderCell{
+
+}
+
+.ngCell{
+    border: 1px solid #b3b3b3;
+    width: 200% !important;
+}
+
+
+
+.timeline-line{
+    cursor: pointer;
+    stroke:#000000;
+}
+
+.other-line{
+    cursor: pointer;
+    stroke:#376DC2;
+}
+
+.ngHeaderText{
+    color: #ffffff;
+}
+
+.ngViewport{
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}

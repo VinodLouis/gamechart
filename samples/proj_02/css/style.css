@@ -1,0 +1,65 @@
+.chart-text-main{
+    text-align: center;
+    width: 230px;
+    color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-content{
+    color:#999999;
+}
+.text-head{
+    margin-top: 10px;
+    color: #41C259;
+}
+.text-head-red{
+    color: #F15D5D;
+    margin-top: 10px;
+}
+
+.final-patent{
+    color: #394FA1;
+    font-size: 40px;
+}
+
+/* css of doughnut chart*/
+text {
+    font-family: "RamaGothicM-Heavy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
+    /*font-size: 7rem;*/
+    font-weight: 400;
+    /*line-height: 16rem;*/
+    fill: #1AB6F0;
+}
+
+path.color0_1{
+    fill: #1AB6F0;
+}
+
+path.color1_1 {
+    fill: #FFFFFF;
+}
+
+path.color0_2{
+    fill:#DD1B3D;
+}
+
+path.color0_3{
+    fill:#41C259;
+}
+
+.innerRing_1{
+    fill:#394FA2;
+}
+
+.innerRing_2{
+    fill:#41C259;
+}
+
+.innerRing_3{
+    fill:#1AB6F0;
+
+}
+
